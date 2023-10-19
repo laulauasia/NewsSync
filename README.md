@@ -25,11 +25,18 @@
 - JavaScript
 - [News API](https://gnews.io/) for fetching news data
 
-## Getting Started
+## How To Use
 
-1. Clone the repository : `git clone https://github.com/your-username/newswebapp.git`
-2. Navigate to the project directory : `cd newswebapp`
-3. Open `index.html` in your preferred web browser.
+If you want to explore the project's source code and make changes locally, follow these steps:
+
+1. Clone the repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/PriyanshuTrivedi07/NewsSync.git
+2. Open the project folder:
+   ```bash
+   cd NewsSync
+   
+3. Open the `index.html` file in your preferred web browser to see the website.
 
 ## Usage
 
