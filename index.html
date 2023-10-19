@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewsSync - Stay Synced</title>
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
@@ -21,10 +22,9 @@
             </div>
             <div id="nav-links-container" class="nav-links">
                 <ul class="flex">
-                    <li class="nav-item hover-link" id="latest" onclick="onNavItemClick('latest')">Latest</li>
-                    <li class="nav-item hover-link" id="cricket" onclick="onNavItemClick('cricket')">Cricket</li>
-                    <li class="nav-item hover-link" id="technology" onclick="onNavItemClick('technology')">Technology
-                    </li>
+                    <li class="nav-item hover-link" id="latest">Latest</li>
+                    <li class="nav-item hover-link" id="cricket" >Cricket</li>
+                    <li class="nav-item hover-link" id="technology">Technology</li>
                 </ul>
             </div>
             <div class="search-bar flex">
@@ -68,7 +68,7 @@
         </div>
     </template>
 
-    <script src="main.js"></script>
+    <script type="module" src="main.js" defer></script>
     <script src="https://kit.fontawesome.com/ca3be2fc43.js" crossorigin="anonymous"></script>
 
 </body>
