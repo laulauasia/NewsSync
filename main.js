@@ -1,5 +1,4 @@
-import apiKey from "./config.js";
-const API_KEY = apiKey;
+const API_KEY = "8a6b525c9925801914d2702fe4683567";
 const url = 'https://gnews.io/api/v4/search?q=';
 
 window.addEventListener('load', () => fetchNews('India'));
