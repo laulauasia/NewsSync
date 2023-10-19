@@ -2,7 +2,7 @@ import apiKey from "./config.js";
 const API_KEY = apiKey;
 const url = 'https://gnews.io/api/v4/search?q=';
 
-// window.addEventListener('load', () => fetchNews('India'));
+window.addEventListener('load', () => fetchNews('India'));
 
 async function fetchNews(query) {
     const res = await fetch(`${url}${query}&apikey=${API_KEY}`);
