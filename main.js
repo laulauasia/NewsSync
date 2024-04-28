@@ -1,7 +1,7 @@
 // const API_KEY = "8a6b525c9925801914d2702fe4683567";
 const API_KEY = "4a2a02c3779947f0aa5ccc1161deffea";
 // const url = 'https://gnews.io/api/v4/search?q=';
-const url = 'https://newsapi.org/v2/everything?q=';
+const url = 'https://newsapi.org/v2/everything?q=tesla';
 
 window.addEventListener('load', () => fetchNews('India'));
 
@@ -34,7 +34,7 @@ function fillDataInCard(cardClone, article) {
     newsImg.src = article.image;
     newsTitle.innerHTML = article.title;
     const date = new Date(article.publishedAt).toLocaleString('en-US', {
-        timeZone: 'Asia/Jakarta'
+        timeZone: 'Asia/Kolkata'
     });
     newsSource.innerHTML = `${article.source.name}  •  ${date}`;
     newsDesc.innerHTML = article.description;
