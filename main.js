@@ -1,7 +1,7 @@
-// const API_KEY = "8a6b525c9925801914d2702fe4683567";
-const API_KEY = "4a2a02c3779947f0aa5ccc1161deffea";
-// const url = 'https://gnews.io/api/v4/search?q=';
-const url = 'https://newsapi.org/v2/everything?q=tesla';
+const API_KEY = "8a6b525c9925801914d2702fe4683567";
+// const API_KEY = "4a2a02c3779947f0aa5ccc1161deffea";
+const url = 'https://gnews.io/api/v4/search?q=';
+// const url = 'https://newsapi.org/v2/everything?q=tesla';
 
 window.addEventListener('load', () => fetchNews('India'));
 
