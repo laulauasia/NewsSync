@@ -331,3 +331,30 @@ main {
 }
 
 /* ====================================== */
+
+/* =========== Ads Section ============ */
+
+.ad_side{
+    left: 30px;
+    border: 1px solid;
+    width: 250px;
+    height: 500px;
+    position: fixed;
+}
+.ad_side img{
+    width: 250px;
+    height: 500px;
+}
+.ad_side_2 img{
+    width: 250px;
+    height: 500px;
+}
+.ad_side_2{
+    position: fixed;
+    right: 30px;
+    border: 1px solid;
+    width: 250px;
+    height: 300px;
+}
+
+/* ====================================== */
