@@ -343,7 +343,7 @@ $hover: rgba(245,160,25,.8);
 // Actual Banner Code
 .ad {
   margin: 20px auto;
-  max-width: 768px;
+  max-width: 400px;
   background-image: $background;
   background-size: cover;
   background-position: left center;
