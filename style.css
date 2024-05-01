@@ -332,3 +332,18 @@ main {
 
 /* ====================================== */
 
+/*LINKS*/
+a {
+    /*LINKS TEXT*/
+    color: var(--textColor);
+    text-decoration: none;
+    text-align: center;
+
+    /*LINKS BORDER:*/
+    border: 2px solid var(--textColor);
+    border-radius: 10px;
+
+    display: block; /*each link takes a whole line*/
+    margin: 10px;
+    padding: 10px; 
+}
